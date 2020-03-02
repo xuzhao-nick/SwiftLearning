@@ -19,8 +19,11 @@ struct ContentView: View {
             Text("Order Pizza")
                 .font(.largeTitle)
             Spacer()
+                .frame(height:50)
+            Text("Huli Chicken Pizza")
+            
         }
-            .padding()
+        .padding()
     }
 }
 
@@ -29,8 +32,8 @@ struct ContentView_Previews: PreviewProvider {
         Group {
             ContentView()
             ContentView()
-                .colorScheme(.dark)
-                .background(Color.black)
+            //.colorScheme(.dark)
+                //.background(Color.black)
             .previewDevice("iPad Pro (9.7-inch)")
             
         }
