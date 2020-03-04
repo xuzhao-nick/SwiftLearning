@@ -20,7 +20,16 @@ struct ContentView: View {
                 .font(.largeTitle)
             Spacer()
                 .frame(height:50)
-            Text("Huli Chicken Pizza")
+            HStack {
+                Image("1_100w")
+                Text("Huli Chicken Pizza")
+            }
+            Text("Your Order")
+            HStack {
+                Text("Your order item here")
+                Spacer()
+                Text("$0.00")
+            }
             
         }
         .padding()
