@@ -24,12 +24,13 @@ struct ContentView: View {
                 .font(.largeTitle)
             Spacer()
                 .frame(height:50)
-            HStack {
+            HStack(alignment: .top, spacing:15) {
                 Image("1_100w")
                 Text("Huli Chicken Pizza")
+                Spacer()
             }
             Text("Your Order")
-            HStack {
+            HStack(alignment: .firstTextBaseline) {
                 Text("Your order item here")
                 Spacer()
                 Text("$0.00")
