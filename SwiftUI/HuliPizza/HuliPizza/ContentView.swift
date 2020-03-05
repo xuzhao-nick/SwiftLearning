@@ -10,12 +10,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+
         VStack {
-            Text("Huli Pizza Company")
-                .font(.title)
-            Image("Surf Board")
-                .resizable()
-                .scaledToFit()
+            ZStack {
+                Image("Surf Board")
+                    .resizable()
+                    .scaledToFit()
+                Text("Huli Pizza Company")
+                    .font(.title)
+            }
+
             Text("Order Pizza")
                 .font(.largeTitle)
             Spacer()
@@ -31,8 +35,7 @@ struct ContentView: View {
                 Text("$0.00")
             }
             
-        }
-        .padding()
+        }.padding()
     }
 }
 
@@ -41,8 +44,8 @@ struct ContentView_Previews: PreviewProvider {
         Group {
             ContentView()
             ContentView()
-            //.colorScheme(.dark)
-                //.background(Color.black)
+            .colorScheme(.dark)
+            .background(Color.black)
             .previewDevice("iPad Pro (9.7-inch)")
             
         }
