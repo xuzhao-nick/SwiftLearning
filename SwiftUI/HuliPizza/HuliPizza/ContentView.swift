@@ -22,9 +22,8 @@ struct ContentView: View {
 
             Text("Order Pizza")
                 .font(.largeTitle)
-            Spacer()
-                .frame(height:50)
-            HStack(alignment: .top, spacing:15) {
+            Text("Menu")
+            List(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
                 Image("1_100w")
                 Text("Huli Chicken Pizza")
                 Spacer()
@@ -35,8 +34,9 @@ struct ContentView: View {
                 Spacer()
                 Text("$0.00")
             }
-            
+            Spacer()
         }.padding()
+       
     }
 }
 
