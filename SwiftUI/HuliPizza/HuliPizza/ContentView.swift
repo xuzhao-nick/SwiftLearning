@@ -29,11 +29,14 @@ struct ContentView: View {
                 Spacer()
             }
             Text("Your Order")
-            HStack(alignment: .firstTextBaseline) {
-                Text("Your order item here")
-                Spacer()
-                Text("$0.00")
+            List(0 ..< 5) {item in
+                HStack(alignment: .firstTextBaseline) {
+                    Text("Your order item here")
+                    Spacer()
+                    Text("$0.00")
+                }
             }
+
             Spacer()
         }.padding()
        
