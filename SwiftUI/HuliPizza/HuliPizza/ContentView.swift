@@ -24,9 +24,11 @@ struct ContentView: View {
                 .font(.largeTitle)
             Text("Menu")
             List(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
-                Image("1_100w")
-                Text("Huli Chicken Pizza")
-                Spacer()
+                HStack(alignment: .top, spacing: 15) {
+                    Image("1_100w")
+                    Text("Huli Chicken Pizza")
+                    Spacer()
+                }
             }
             Text("Your Order")
             List(0 ..< 5) {item in
