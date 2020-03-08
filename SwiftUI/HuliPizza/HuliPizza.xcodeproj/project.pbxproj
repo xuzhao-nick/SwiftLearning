@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B361C9A24149E740019ED3C /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B361C9924149E740019ED3C /* PageTitleView.swift */; };
 		0B59A3462413F53A00611B53 /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B59A3452413F53A00611B53 /* OrderListView.swift */; };
 		0B59A3482413F63200611B53 /* MenuListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B59A3472413F63200611B53 /* MenuListView.swift */; };
 		0B59A34A2413F72500611B53 /* ContentHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B59A3492413F72500611B53 /* ContentHeaderView.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B361C9924149E740019ED3C /* PageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
 		0B59A3452413F53A00611B53 /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
 		0B59A3472413F63200611B53 /* MenuListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListView.swift; sourceTree = "<group>"; };
 		0B59A3492413F72500611B53 /* ContentHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentHeaderView.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				0BB4ABFB240BE4D10008DB29 /* Info.plist */,
 				0BB4ABF5240BE4D10008DB29 /* Preview Content */,
 				0B59A3492413F72500611B53 /* ContentHeaderView.swift */,
+				0B361C9924149E740019ED3C /* PageTitleView.swift */,
 			);
 			path = HuliPizza;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			files = (
 				0BB4ABEE240BE4D00008DB29 /* AppDelegate.swift in Sources */,
 				0B59A3482413F63200611B53 /* MenuListView.swift in Sources */,
+				0B361C9A24149E740019ED3C /* PageTitleView.swift in Sources */,
 				0B59A3462413F53A00611B53 /* OrderListView.swift in Sources */,
 				0B59A34A2413F72500611B53 /* ContentHeaderView.swift in Sources */,
 				0B59A3502413FA7C00611B53 /* RatingsView.swift in Sources */,
