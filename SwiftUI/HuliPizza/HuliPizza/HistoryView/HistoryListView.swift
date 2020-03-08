@@ -11,11 +11,6 @@ import SwiftUI
 struct HistoryListView: View {
     var body: some View {
         VStack {
-            VStack() {
-                ContentHeaderView()
-                Text("Pizza History").font(.title)
-                
-            }
             List(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
                 HistoryRowView()
             }
@@ -26,7 +21,7 @@ struct HistoryListView: View {
 
 struct HistoryListView_Previews: PreviewProvider {
     static var previews: some View {
-        HistoryListView().colorScheme(.dark).background(Color.black)
+        HistoryListView()
     }
 }
 
