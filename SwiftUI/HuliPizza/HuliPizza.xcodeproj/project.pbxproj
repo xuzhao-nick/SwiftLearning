@@ -11,6 +11,7 @@
 		0B361C9C2414A6030019ED3C /* HistoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B361C9B2414A6030019ED3C /* HistoryListView.swift */; };
 		0B361C9E2414E2960019ED3C /* HistoryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B361C9D2414E2960019ED3C /* HistoryRowView.swift */; };
 		0B361CA02414E3D10019ED3C /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B361C9F2414E3D10019ED3C /* HistoryView.swift */; };
+		0B361CA22414E7440019ED3C /* ListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B361CA12414E7440019ED3C /* ListHeaderView.swift */; };
 		0B59A3462413F53A00611B53 /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B59A3452413F53A00611B53 /* OrderListView.swift */; };
 		0B59A3482413F63200611B53 /* MenuListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B59A3472413F63200611B53 /* MenuListView.swift */; };
 		0B59A34A2413F72500611B53 /* ContentHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B59A3492413F72500611B53 /* ContentHeaderView.swift */; };
@@ -30,6 +31,7 @@
 		0B361C9B2414A6030019ED3C /* HistoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryListView.swift; sourceTree = "<group>"; };
 		0B361C9D2414E2960019ED3C /* HistoryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryRowView.swift; sourceTree = "<group>"; };
 		0B361C9F2414E3D10019ED3C /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		0B361CA12414E7440019ED3C /* ListHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHeaderView.swift; sourceTree = "<group>"; };
 		0B59A3452413F53A00611B53 /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
 		0B59A3472413F63200611B53 /* MenuListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListView.swift; sourceTree = "<group>"; };
 		0B59A3492413F72500611B53 /* ContentHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentHeaderView.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				0B59A3412413F48800611B53 /* HistoryView */,
 				0BB4ABED240BE4D00008DB29 /* AppDelegate.swift */,
 				0BB4ABEF240BE4D00008DB29 /* SceneDelegate.swift */,
+				0B361CA12414E7440019ED3C /* ListHeaderView.swift */,
 				0BB4ABF1240BE4D00008DB29 /* ContentView.swift */,
 				0BB4ABF3240BE4D10008DB29 /* Assets.xcassets */,
 				0BB4ABF8240BE4D10008DB29 /* LaunchScreen.storyboard */,
@@ -215,6 +218,7 @@
 				0B361CA02414E3D10019ED3C /* HistoryView.swift in Sources */,
 				0B59A3462413F53A00611B53 /* OrderListView.swift in Sources */,
 				0B59A34A2413F72500611B53 /* ContentHeaderView.swift in Sources */,
+				0B361CA22414E7440019ED3C /* ListHeaderView.swift in Sources */,
 				0B59A3502413FA7C00611B53 /* RatingsView.swift in Sources */,
 				0B59A34E2413F9EB00611B53 /* MenuRowView.swift in Sources */,
 				0BB4ABF0240BE4D00008DB29 /* SceneDelegate.swift in Sources */,
