@@ -16,7 +16,7 @@ struct ContentHeaderView: View {
                     .resizable()
                     .scaledToFit()
                 Text("Huli Pizza Company")
-                    .font(.title)
+                    .font(.title).foregroundColor(Color.white)
             }
         }
     }
