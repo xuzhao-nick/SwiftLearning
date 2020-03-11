@@ -13,7 +13,7 @@ struct ContentView: View {
 
         VStack {
             ContentHeaderView()
-                .layoutPriority(2)
+               .layoutPriority(2)
             PageTitleView(title:"Order Pizza")
             MenuListView()
                 .layoutPriority(1)
