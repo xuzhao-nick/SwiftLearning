@@ -13,7 +13,9 @@ struct HistoryView: View {
         VStack {
             ContentHeaderView()
             PageTitleView(title: "Pizza History")
+            SelectedImageView()
             HistoryListView()
+            
         }
     }
 }
@@ -26,3 +28,5 @@ struct HistoryView_Previews: PreviewProvider {
         }
     }
 }
+
+

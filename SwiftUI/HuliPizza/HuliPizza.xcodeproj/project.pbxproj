@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B0D91FF241B1AF100C166D5 /* SelectedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0D91FE241B1AF100C166D5 /* SelectedImageView.swift */; };
 		0B361C9A24149E740019ED3C /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B361C9924149E740019ED3C /* PageTitleView.swift */; };
 		0B361C9C2414A6030019ED3C /* HistoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B361C9B2414A6030019ED3C /* HistoryListView.swift */; };
 		0B361C9E2414E2960019ED3C /* HistoryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B361C9D2414E2960019ED3C /* HistoryRowView.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B0D91FE241B1AF100C166D5 /* SelectedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedImageView.swift; sourceTree = "<group>"; };
 		0B361C9924149E740019ED3C /* PageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
 		0B361C9B2414A6030019ED3C /* HistoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryListView.swift; sourceTree = "<group>"; };
 		0B361C9D2414E2960019ED3C /* HistoryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryRowView.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				0B361C9B2414A6030019ED3C /* HistoryListView.swift */,
 				0B361C9D2414E2960019ED3C /* HistoryRowView.swift */,
 				0B361C9F2414E3D10019ED3C /* HistoryView.swift */,
+				0B0D91FE241B1AF100C166D5 /* SelectedImageView.swift */,
 			);
 			path = HistoryView;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				0B361CA02414E3D10019ED3C /* HistoryView.swift in Sources */,
 				0B59A3462413F53A00611B53 /* OrderListView.swift in Sources */,
 				0B59A34A2413F72500611B53 /* ContentHeaderView.swift in Sources */,
+				0B0D91FF241B1AF100C166D5 /* SelectedImageView.swift in Sources */,
 				0B361CA22414E7440019ED3C /* ListHeaderView.swift in Sources */,
 				0B59A3502413FA7C00611B53 /* RatingsView.swift in Sources */,
 				0B59A34E2413F9EB00611B53 /* MenuRowView.swift in Sources */,
