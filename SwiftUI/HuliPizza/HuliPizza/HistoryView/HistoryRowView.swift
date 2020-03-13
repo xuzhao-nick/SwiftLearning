@@ -11,7 +11,7 @@ import SwiftUI
 struct HistoryRowView: View {
     var title:String
     var body: some View {
-        HStack {
+        HStack(alignment: .top) {
             Image("1_100w")
             .clipShape(Circle())
             .shadow(color: Color.black.opacity(0.5), radius: 5, x: 5, y: 5)
