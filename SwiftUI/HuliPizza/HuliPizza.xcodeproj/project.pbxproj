@@ -29,6 +29,7 @@
 		0BD2F62E2423C84F00BEF2F6 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD2F62B2423C84F00BEF2F6 /* MenuModel.swift */; };
 		0BD2F62F2423C84F00BEF2F6 /* HistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD2F62C2423C84F00BEF2F6 /* HistoryModel.swift */; };
 		0BD2F6302423C84F00BEF2F6 /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD2F62D2423C84F00BEF2F6 /* OrderModel.swift */; };
+		0BD2F6322424368F00BEF2F6 /* MenuDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD2F6312424368F00BEF2F6 /* MenuDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		0BD2F62B2423C84F00BEF2F6 /* MenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
 		0BD2F62C2423C84F00BEF2F6 /* HistoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryModel.swift; sourceTree = "<group>"; };
 		0BD2F62D2423C84F00BEF2F6 /* OrderModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
+		0BD2F6312424368F00BEF2F6 /* MenuDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		0B59A3432413F4AA00611B53 /* MenuView */ = {
 			isa = PBXGroup;
 			children = (
+				0BD2F6312424368F00BEF2F6 /* MenuDetailView.swift */,
 				0B59A3472413F63200611B53 /* MenuListView.swift */,
 				0B59A34D2413F9EB00611B53 /* MenuRowView.swift */,
 				0B59A34F2413FA7C00611B53 /* RatingsView.swift */,
@@ -228,6 +231,7 @@
 			files = (
 				0B361C9E2414E2960019ED3C /* HistoryRowView.swift in Sources */,
 				0B0D9201241B220100C166D5 /* HistoryPageTitleView.swift in Sources */,
+				0BD2F6322424368F00BEF2F6 /* MenuDetailView.swift in Sources */,
 				0BD2F62F2423C84F00BEF2F6 /* HistoryModel.swift in Sources */,
 				0BB4ABEE240BE4D00008DB29 /* AppDelegate.swift in Sources */,
 				0B59A3482413F63200611B53 /* MenuListView.swift in Sources */,
